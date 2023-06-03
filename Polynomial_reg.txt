@@ -1,0 +1,32 @@
+
+##############     POLYNOMIAL REGRESSION   ############################
+
+# import pandas as pd
+# from sklearn import linear_model
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# from sklearn.preprocessing import PolynomialFeatures as pf
+#
+# df=pd.read_csv("Polynomial_reg.csv")
+#
+# x=df.iloc[:,1:2].values
+# y=df.iloc[:,2].values
+#
+# # plt.scatter(x,y)
+# # plt.show()
+#
+# # print(sns.lmplot(x='level',y='salary',data=df))
+# # plt.show()
+#
+# # reg=linear_model.LinearRegression()
+# # reg.fit(x,y)
+# # print(reg.predict([[2]]))
+#
+# poly=pf(degree=2)
+# poly_x=poly.fit_transform(x)
+#
+# poly_reg=linear_model.LinearRegression()
+# poly_reg.fit(poly_x,y)
+#
+# print(poly_reg.predict(poly.fit_transform([[0.5]])))
+
